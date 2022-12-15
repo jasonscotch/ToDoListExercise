@@ -84,6 +84,13 @@ li img {
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
+	
+}
+
+div {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
 }
 
 body { 
