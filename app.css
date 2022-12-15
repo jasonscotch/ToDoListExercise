@@ -1,0 +1,151 @@
+.crossed-out {
+	color: #83a47e;
+	font-weight: bold;
+	text-decoration: line-through;
+}
+ul {
+	list-style-type: none;
+	font-family: 'Wire One', sans-serif;
+	color: rgb(228,192,135);
+	font-size: 35px;
+	padding-left: 0px;
+	margin: 2% 0 2% 0;
+	
+} 
+
+input[type=checkbox] {
+    transform: scale(1.5);
+	vertical-align: middle;
+	
+}
+
+input[type=checkbox]:checked {
+    transform: scale(1.5);
+	vertical-align: middle;
+	accent-color: #a2b489;
+}
+
+label span{
+	vertical-align: middle;
+	word-wrap: break-all;
+}
+
+li {
+	display: flexbox;
+	align-content: initial;
+}
+
+li img {
+	vertical-align: text-bottom;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0% 5% 0% 5%;
+}
+
+.input {
+	font-size: 14px;
+	padding: 5px;
+	background-color: rgb(228,192,135);
+	color: black;
+	border-radius: 1px;
+	border: #090d00 solid;
+	min-width: 36em;
+}
+
+.text-input {
+	text-align: center;
+}
+
+::placeholder { 
+	color: black;
+	opacity: 1; 
+  }
+
+.button {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+  padding: 5px;
+  border: solid;
+  border-width: 4px 0;
+  position: relative;
+  margin: 0 0 0 0;
+  border-radius: 5px;
+  background-color: #a2b489;
+}
+
+.local {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+body { 
+	background: #090d00; 
+	color: rgba(255,255,255,.25); 
+	margin: 0;
+}
+
+.title {
+	text-align: center;
+	margin: 2% 0 2% 0;
+}
+
+
+
+p {
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px ;
+	padding: .5em 0em;
+	width: 40em;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+
+p span {
+
+	font: 3em "Oswald", sans-serif;
+	letter-spacing: 50;
+	padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+	text-shadow: 0 0 70px rgba(255,255,255,.5);
+	text-align: center;
+
+/* Clip Background Image */
+	background: url(http://static.colourlovers.com/uploads/images/4/44/44982.pic.jpg) repeat-y;
+	-webkit-background-clip: text;
+
+/* Animate Background Image */
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 10s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+	0% { background-position: -200% 50%; }
+	100% { background-position: 250% 50%; }
+  0% { background-position: -100% 50%; }
+}
+  
+
+
+
+
+
+
+
+
+

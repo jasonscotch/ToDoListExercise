@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Wire+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Neuton" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="title">
+  <p><span>TO DO LIST</span></p>
+</div>
+<div class="text-input">
+  <form action="" id="add-item">
+    <input class="input" id="new-item" placeholder="Add Items Here"/>
+    <button class="button">Add To List</button>
+  </form>
+</div>
+
+  <div class="list">
+    <ul id="todo-list">  
+      <li><label><input type="checkbox"><span> Actionable items can be added, checked off, and removed here. </span></label><img width="30" height="30" src="icons8-trash-can-64.png"></li>
+     
+    </ul>
+  </div>
+  
+  <button id="local" class="button">Clear localStorage</button>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
